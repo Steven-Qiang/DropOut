@@ -1,22 +1,15 @@
 # DropOut
-「DropOut」は、yui540のポートフォリオサイトのversion_6.0.0です。
+本项目是 [yui540/DropOut](https://github.com/yui540/DropOut) 的 Fork 版本。
 
-『僕は魔法少女-----そう思っていた』
+## 项目改进
+- 迁移到现代构建工具 Vite
+- 将网页内容翻译成中文
+- 优化项目结构和配置
 
-🎉 [magical-girl.site](https://magical-girl.site) 🎉
+## 超过50秒的震撼CSS动画
+本网站的动画部分全部使用CSS Animation实现。
 
-![1](./res/1.png)
-
-- このサイトでの推しキャラ
-  - ガヴリール（ガヴリールドロップアウト）
-- デザイン・モーション・コーディング
-  - yui540
-  - [Twitter - @yui540](https://twitter.com/yui540)
-
-## 50秒越えの圧倒的CSS Animation
-このサイトのアニメーション部分は全てCSS Animationで実現されています。
-
-また、PC, タブレット, スマートフォンでもシームレスに動きます（描画処理に耐えられれば）
+支持PC、平板、智能手机无缝运行（如果设备能承受渲染处理的话）
 
 ![2](./res/2.png)
 
