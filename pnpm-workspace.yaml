@@ -1,0 +1,6 @@
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - core-js
+  - ejs
+  - esbuild
+  - node-sass

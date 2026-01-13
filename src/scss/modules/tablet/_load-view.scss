@@ -156,7 +156,7 @@
         &::after { background-color: $theme-pink; }
       }
     }
-    .icon { background-image: url(../images/load-view/wait/1.png); }
+    .icon { background-image: url(@images/load-view/wait/1.png); }
   }
   .load-view__body__panel__icon_type_2 {
     left: 192.4px;
@@ -167,7 +167,7 @@
         &::after { background-color: $theme-light-purple; }
       }
     }
-    .icon { background-image: url(../images/load-view/wait/2.png); }
+    .icon { background-image: url(@images/load-view/wait/2.png); }
   }
   .load-view__body__panel__icon_type_3 {
     right: 192.4px;
@@ -178,7 +178,7 @@
         &::after { background-color: $theme-light-pink; }
       }
     }
-    .icon { background-image: url(../images/load-view/wait/3.png); }
+    .icon { background-image: url(@images/load-view/wait/3.png); }
   }
   .load-view__body__panel__icon_type_4 {
     right: 56.2px;
@@ -189,7 +189,7 @@
         &::after { background-color: $theme-purple; }
       }
     }
-    .icon { background-image: url(../images/load-view/wait/4.png); }
+    .icon { background-image: url(@images/load-view/wait/4.png); }
   }
 
   /*** poster ***/
@@ -286,22 +286,22 @@
     .poster:nth-child(1) {
       background-color: $theme-pink;
       &::after { border-top-color: $theme-pink; }
-      .illust:after { background-image: url(../images/load-view/poster/1.png); }
+      .illust:after { background-image: url(@images/load-view/poster/1.png); }
     }
     .poster:nth-child(2) {
       background-color: $theme-light-purple;
       &::after { border-top-color: $theme-light-purple; }
-      .illust:after { background-image: url(../images/load-view/poster/2.png); }
+      .illust:after { background-image: url(@images/load-view/poster/2.png); }
     }
     .poster:nth-child(3) {
       background-color: $theme-light-pink;
       &::after { border-top-color: $theme-light-pink; }
-      .illust:after { background-image: url(../images/load-view/poster/3.png); }
+      .illust:after { background-image: url(@images/load-view/poster/3.png); }
     }
     .poster:nth-child(4) {
       background-color: $theme-purple;
       &::after { border-top-color: $theme-purple; }
-      .illust:after { background-image: url(../images/load-view/poster/4.png); }
+      .illust:after { background-image: url(@images/load-view/poster/4.png); }
     }
 
     .illust {

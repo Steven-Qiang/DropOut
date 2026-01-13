@@ -57,7 +57,7 @@
       content: ""; display: block;
       position: absolute;
       width: 100%; height: 100%;
-      background-image: url(../images/gab-animation/bg.png);
+      background-image: url(@images/gab-animation/bg.png);
       background-size: 30px;
       opacity: 0;
     }
@@ -99,7 +99,7 @@
       &::after {
         content: ""; display: block;
         width: 100%; height: 100%;
-        background-image: url(../images/gab-animation/gab.png);
+        background-image: url(@images/gab-animation/gab.png);
         background-size: auto 90%;
         background-repeat: no-repeat;
         background-position: center bottom;
@@ -198,7 +198,7 @@
     position: absolute;
     top: calc(50% - 148.5px); left: calc(50% - 400px);
     width: 800px; height: 297px;
-    background-image: url(../images/gab-animation/message.png);
+    background-image: url(@images/gab-animation/message.png);
     background-size: 100%;
     opacity: 0;
   }
@@ -295,11 +295,11 @@
           border-radius: 50%;
         }
       }
-      .char-1 { background-image: url(../images/gab-animation/name/1.png); }
-      .char-2 { background-image: url(../images/gab-animation/name/2.png); }
-      .char-3 { background-image: url(../images/gab-animation/name/3.png); }
-      .char-4 { background-image: url(../images/gab-animation/name/4.png); }
-      .char-5 { background-image: url(../images/gab-animation/name/5.png); }
+      .char-1 { background-image: url(@images/gab-animation/name/1.png); }
+      .char-2 { background-image: url(@images/gab-animation/name/2.png); }
+      .char-3 { background-image: url(@images/gab-animation/name/3.png); }
+      .char-4 { background-image: url(@images/gab-animation/name/4.png); }
+      .char-5 { background-image: url(@images/gab-animation/name/5.png); }
     }
     .paint:nth-child(1) { left: calc(50% - 330px); }
     .paint:nth-child(2) { left: calc(50% - 190px); }
@@ -406,27 +406,27 @@
     }
     .layer-1 {
       transform: translateZ(20px) scale(calc(1 - (20 / 100)));
-      &::before { background-image: url(../images/gab-animation/comic/1.png); }
+      &::before { background-image: url(@images/gab-animation/comic/1.png); }
     }
     .layer-2 {
       transform: translateZ(120px) scale(calc(1 - (120 / 200)));
       &::before {
         transform: translateY(-100%);
-        background-image: url(../images/gab-animation/comic/2.png);
+        background-image: url(@images/gab-animation/comic/2.png);
       }
     }
     .layer-3 {
       transform: translateZ(220px) scale(calc(1 - (220 / 300)));
       &::before {
         transform: translateY(100%);
-        background-image: url(../images/gab-animation/comic/3.png);
+        background-image: url(@images/gab-animation/comic/3.png);
       }
     }
     .layer-4 {
       transform: translateZ(320px) scale(calc(1 - (320 / 400)));
       &::before {
         transform: translateY(-100%);
-        background-image: url(../images/gab-animation/comic/4.png);
+        background-image: url(@images/gab-animation/comic/4.png);
       }
     }
   }

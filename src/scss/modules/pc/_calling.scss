@@ -172,21 +172,21 @@
     .icon-box:nth-child(1) {
       .icon:after {
         background-color: $theme-light-purple;
-        background-image: url(../images/calling/icons/yui.png);
+        background-image: url(@images/calling/icons/yui.png);
       }
       .name:after { background-color: $theme-light-purple; }
     }
     .icon-box:nth-child(2) {
       .icon:after {
         background-color: $theme-pink;
-        background-image: url(../images/calling/icons/gab.png);
+        background-image: url(@images/calling/icons/gab.png);
       }
       .name:after { background-color: $theme-pink; }
     }
     .icon-box:nth-child(3) {
       .icon:after {
         background-color: $theme-mint;
-        background-image: url(../images/calling/icons/eriri.png);
+        background-image: url(@images/calling/icons/eriri.png);
       }
       .name:after { background-color: $theme-mint; }
     }
@@ -284,21 +284,21 @@
       top: 0; left: 0;
       .char {
         background-color: $theme-light-purple;
-        &::after { background-image: url(../images/calling/icons/yui_large.png); }
+        &::after { background-image: url(@images/calling/icons/yui_large.png); }
       }
     }
     .view:nth-child(2) {
       top: 0; right: 0;
       .char {
         background-color: $theme-mint;
-        &::after { background-image: url(../images/calling/icons/eriri_large.png); }
+        &::after { background-image: url(@images/calling/icons/eriri_large.png); }
       }
     }
     .view:nth-child(3) {
       bottom: 0; left: 25%;
       .char {
         background-color: $theme-pink;
-        &::after { background-image: url(../images/calling/icons/gab_large.png); }
+        &::after { background-image: url(@images/calling/icons/gab_large.png); }
       }
     }
   }
@@ -328,7 +328,7 @@
       background-size: auto 35%;
       background-position: center;
       background-repeat: no-repeat;
-      background-image: url(../images/calling/say.png);
+      background-image: url(@images/calling/say.png);
       opacity: 0;
     }
   }

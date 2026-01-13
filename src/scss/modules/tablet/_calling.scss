@@ -171,21 +171,21 @@
     .icon-box:nth-child(1) {
       .icon:after {
         background-color: $theme-light-purple;
-        background-image: url(../images/calling/icons/yui.png);
+        background-image: url(@images/calling/icons/yui.png);
       }
       .name:after { background-color: $theme-light-purple; }
     }
     .icon-box:nth-child(2) {
       .icon:after {
         background-color: $theme-pink;
-        background-image: url(../images/calling/icons/gab.png);
+        background-image: url(@images/calling/icons/gab.png);
       }
       .name:after { background-color: $theme-pink; }
     }
     .icon-box:nth-child(3) {
       .icon:after {
         background-color: $theme-mint;
-        background-image: url(../images/calling/icons/eriri.png);
+        background-image: url(@images/calling/icons/eriri.png);
       }
       .name:after { background-color: $theme-mint; }
     }
@@ -285,7 +285,7 @@
         background-color: $theme-light-purple;
         &::after {
           transform: translateY(100%);
-          background-image: url(../images/calling/icons/yui_large.png);
+          background-image: url(@images/calling/icons/yui_large.png);
         }
       }
     }
@@ -295,7 +295,7 @@
         background-color: $theme-mint;
         &::after {
           transform: translateX(-100%);
-          background-image: url(../images/calling/icons/eriri_large.png);
+          background-image: url(@images/calling/icons/eriri_large.png);
         }
       }
     }
@@ -305,7 +305,7 @@
         background-color: $theme-pink;
         &::after {
           transform: translateX(100%);
-          background-image: url(../images/calling/icons/gab_large.png);
+          background-image: url(@images/calling/icons/gab_large.png);
         }
       }
     }
@@ -336,7 +336,7 @@
       background-size: auto 45%;
       background-position: center;
       background-repeat: no-repeat;
-      background-image: url(../images/calling/say.png);
+      background-image: url(@images/calling/say.png);
       opacity: 0;
     }
   }
