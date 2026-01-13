@@ -1,7 +1,6 @@
 {
-  "name": "dropout-modern",
+  "name": "dropout",
   "version": "7.0.0",
-  "description": "magical-girl.site modernized version",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,8 +8,8 @@
     "preview": "vite preview",
     "serve": "vite preview --port 8080"
   },
-  "repository": "git@github.com:yuki540net/DropOut.git",
-  "author": "yuki540 <tabletennis540@gmail.com>",
+  "repository": "git@github.com:Steven-Qiang/DropOut.git",
+  "author": "yuki540 <tabletennis540@gmail.com>, Steven-Qiang",
   "license": "MIT",
   "private": false,
   "devDependencies": {
